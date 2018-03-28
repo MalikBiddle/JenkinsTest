@@ -1,0 +1,42 @@
+.form-container
+{
+    width:460px;
+    border:1px solid aquamarine;
+    margin:auto;
+    border-radius: 2px;
+    padding: 12px;
+}
+
+.Brand
+{
+    text-align:center;
+    width:100%;
+    margin-top:120px;
+    margin-bottom:16px;
+}
+
+.center-container
+{
+    width:460px;
+    margin:180px auto 16px;
+}
+
+.Container
+{
+    border:1px solid black;
+    width:230px;
+    margin:10px auto;
+}
+
+.Revature_Input
+{
+    margin:12px auto;
+    width:210px;
+    display:block;
+}
+
+.Revture_Input_Button
+{
+    margin: 0px 0px 12px 12px;
+    position:relative;
+}

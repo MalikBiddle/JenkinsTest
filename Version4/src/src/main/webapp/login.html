@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Revature Login</title>
+
+        <link rel="stylesheet" href="depend/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="depend/css/style.css"/>
+
+        <style>
+                .form-control:focus{border-color: #f71f13;  box-shadow: inset 0 1px 1px rgba(81, 7, 4,.075),0 0 8px rgba(193, 22, 13,.6);
+                     -webkit-box-shadow: inset 0 1px 1px rgba(81, 7, 4,.075),0 0 8px rgba(193, 22, 13,.6);} 
+                /* .has-error .form-control:focus{box-shadow: none; -webkit-box-shadow: none;} */
+       
+                .center-container
+                {
+                text-align: center;
+                }
+
+                .theLogo
+                {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 100px;
+                width: 100px;
+                }
+                    
+       </style>
+        <meta charset="ISO-8859-1">
+   </head>
+
+    <body>   
+        <div class="container">
+
+            <div class="logo">
+                <img class = "theLogo" src="depend/img/logo.jpg">
+            </div>
+
+            <div class = "center-container">
+                <h1>Radiohead Inc.</h1>
+            </div>
+		
+            <form class="form-horizontal" action="login" method="POST">
+                
+                <div class="form-group">
+
+                    <div class = "form-group">
+                        <label class="form-group" for="username">Username:</label>
+                        <input class="form-control" id="username" type = "text" name = "username" placeholder = "Enter Username"/>
+                    </div> 
+
+                    <div class = "form-group">
+                        <label class="form-group">Password:</label>
+                        <input class="form-control" type = "password" name = "password" id="password" placeholder="Enter Password"/>
+                    </div> 
+
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    
+                    <br><br>
+
+                    <div class = "form-group">
+                        <input class="btn btn-outline-danger btn-block" type = "submit"/>
+                    </div>
+                 
+                </div>
+            </form>             
+     	</div>
+    </body>
+</html>
